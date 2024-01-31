@@ -34,5 +34,11 @@
         "title": "India",
         "src": "https://images.pexels.com/photos/3881104/pexels-photo-3881104.jpeg?auto=compress&cs=tinysrgb&w=600",
         "text": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+        "id": 7,
+        "title": "Iceland",
+        "src": "https://images.pexels.com/photos/831056/pexels-photo-831056.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "text": "Some quick example text to build on the card title and make up the bulk of the card's content."
     }
 ]

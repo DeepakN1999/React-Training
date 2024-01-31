@@ -4,7 +4,7 @@ import HomeData from "../Data/HomeData.json"
 
 function Home() {
 
-    const cardData = cardArray(HomeData, 3);
+    const cardData = cardArray(HomeData, 4);
 
     return (
         <div>
@@ -17,12 +17,24 @@ function Home() {
                 <div className="carousel-inner">
                     <div className="carousel-item active c-item">
                         <img src="https://images.pexels.com/photos/261156/pexels-photo-261156.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="d-block w-100 c-img" alt="..." />
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Explore Your Dreams</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
                     </div>
                     <div className="carousel-item c-item">
                         <img src="https://images.pexels.com/photos/1266831/pexels-photo-1266831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="d-block w-100 c-img" alt="..." />
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Explore Your Dreams</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
                     </div>
                     <div className="carousel-item c-item">
                         <img src="https://images.pexels.com/photos/3601426/pexels-photo-3601426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="d-block w-100 c-img" alt="..." />
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Explore Your Dreams</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
